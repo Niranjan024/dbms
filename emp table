@@ -1,0 +1,13 @@
+create table EMPLOYEES_TABLE(
+    Employee_id  Number(6) not null,
+    First_Name Varchar(20),
+    Last_Name  varchar(25) not null,
+    Email varchar(25) not null,
+    Phone_number varchar(20),
+    Hire_date  date not null,
+    Job_id Varchar(10) not null,
+    Salary Number(8,2) ,
+    Commissiom_pct Number(2,2),
+    Manager_id Number(6),
+    Department_id number(4)
+);
